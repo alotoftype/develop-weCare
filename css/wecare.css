@@ -1,0 +1,14 @@
+/*@import url('css/jquery.kwicks.min.css');*/
+
+.kwicks {
+                height: 200px;
+            }
+            .kwicks > li {
+                height: 200px;
+            }
+
+            #panel-1 { background-color: RGB(154, 55, 142) }
+            #panel-2 { background-color: RGB(156, 195, 72) }
+            #panel-3 { background-color: RGB(91, 181, 154) }
+            #panel-4 { background-color: RGB(220, 96, 48) }
+            #panel-5 { background-color: RGB(251, 183, 48)}

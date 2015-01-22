@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test of WeCare</title>
+	
+	<link rel="stylesheet" href="/css/weCare.css">
+	<link rel="stylesheet" href="css/jquery.kwicks.min.css">
+</head>
+<body>
+
+   <ul class='kwicks kwicks-horizontal'>
+            <li id='panel-1'></li>
+            <li id='panel-2'></li>
+            <li id='panel-3'></li>
+            <li id='panel-4'></li>
+            <li id='panel-5'></li>
+        </ul>	
+    <script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery.kwicks.min.js"></script>
+
+	 <script type='text/javascript'>
+            $().ready(function() {
+                $('.kwicks').kwicks({
+                    maxSize : '75%',
+                    behavior: 'menu'
+                });
+            });
+        </script>
+</body>
+</html>
