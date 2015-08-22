@@ -10,11 +10,38 @@
 <body>
 
    <ul class='kwicks kwicks-horizontal'>
-            <li id='panel-1'></li>
-            <li id='panel-2'></li>
-            <li id='panel-3'></li>
-            <li id='panel-4'></li>
-            <li id='panel-5'></li>
+            <li id='panel-1'>
+            <div class="type">
+            <h2>Care</h2> <img src="img/WeCare_Care.png" alt="Care" class="weimg">
+            	<p class="message"><img src="img/WeCare_Care.png" alt="Care" class=""><span class="message" >We are committed to our patients, our communities and each other</span></p>
+            	</div>
+           
+            </li>
+            <li id='panel-2'>
+            	<div class="type">
+            <h2>Quality</h2><img src="img/WeCare_Quality.png" alt="Care" class="weimg">
+            	<p class="message"><img src="img/WeCare_Quality.png" alt="Care" class=""><span >We strive to do what’s best for our patients by delivering an experience they value along with high quality, appropriate and coordinate care</span></p>
+            	</div>
+            </li>
+            <li id='panel-3'>
+            	<div class="type">
+            <h2>Collaboration</h2><img src="img/WeCare_Collaboration.png" alt="Care" class="weimg">
+            	<p class="message"><img src="img/WeCare_Collaboration.png" alt="Care"><span >We work together to serve the needs of our patients and each other, and foster the learning and development of all our physicians and staff</span></p>
+            	</div>
+            </li>
+            <li id='panel-4'>
+            	<div class="type">
+            <h2>Excellence</h2><img src="img/WeCare_Excellence.png" alt="Care" class="weimg">
+            	<p class="message"><img src="img/WeCare_Excellence.png" alt="Care" ><span >We look for innovative approaches to achieve superior clinical outcomes and meaningful ways to manage care delivery costs</span></p>
+            	</div>
+            </li>
+            <li id='panel-5'>
+            	<div class="type">
+            <h2>Citizenship</h2><img src="img/WeCare_Citizenship.png" alt="Care" class="weimg">
+            	<p class="message"><img src="img/WeCare_Citizenship.png" alt="Care"><span >We take a leadership role in improving the health and wellbeing of our communities</span></p>
+            	</div>
+            </li>
+           
         </ul>	
     <script src="/js/jquery.min.js"></script>
 	<script src="/js/jquery.kwicks.min.js"></script>
@@ -22,9 +49,11 @@
 	 <script type='text/javascript'>
             $().ready(function() {
                 $('.kwicks').kwicks({
-                    maxSize : '75%',
-                    behavior: 'menu'
+                    maxSize : '65%',
+                    behavior: 'menu',
+                    deselectOnClick: true
                 });
+                
             });
         </script>
 </body>
